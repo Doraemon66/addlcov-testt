@@ -15,7 +15,7 @@ When I restarted the work on code coverage testing of C/C++ projects, I learned 
 
 ## Precondition
 
-If you need to run the program in this repository, you need to install [gcc](https://gcc.gnu.org/install/index.html) and [lcov](http://ltp.sourceforge.net /coverage/lcov.php) first.
+If you need to run the program in this repository, you need to install [gcc](https://gcc.gnu.org/install/index.html) and [lcov](http://ltp.sourceforge.net/coverage/lcov.php) first.
 
 ## About the branch
 
