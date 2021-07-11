@@ -1,4 +1,4 @@
-# Use Gcov and LCOV to do code coverage testing for C/C++ projects
+# Use Gcov and LCOV to perform code coverage testing for C/C++ projects
 
 [中文 Readme](README-CN.md)
 
