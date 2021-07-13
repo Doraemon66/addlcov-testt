@@ -1,7 +1,5 @@
 # Use Gcov and LCOV to perform code coverage testing for C/C++ projects
 
-[中文 Readme](README-CN.md)
-
 ## Question
 
 How do you do when your C/C++ project does not have unit test code, and you want to do code coverage testing?
@@ -57,7 +55,7 @@ Let's take a look at what files are generated in the current workspace.
 
 ```bash
 $ ls
-foo.c  foo.gcno  foo.h  foo.o  img  main.c  main.exe  main.gcno  main.o  makefile  README.md  README-CN.md
+foo.c  foo.gcno  foo.h  foo.o  img  main.c  main.exe  main.gcno  main.o  makefile  README.md
 ```
 
 After compilation, in addition to generating `main` and `.o` files, there are also two `.gcno` files.
@@ -76,7 +74,7 @@ when num is equal to 2...
 
 # After main is executed, two .gcda files are generated
 $ ls
-foo.c  foo.gcda  foo.gcno  foo.h  foo.o  img  main.c  main.exe  main.gcda  main.gcno  main.o  makefile  README.md  README-CN.md
+foo.c  foo.gcda  foo.gcno  foo.h  foo.o  img  main.c  main.exe  main.gcda  main.gcno  main.o  makefile  README.md
 ```
 
 > The `.gcda` count data file is generated when a program containing object files built with the GCC `-fprofile-arcs` option is executed. A separate `.gcda` file is created for each object file compiled with this option. It contains arc transition counts, value profile counts, and some summary information.
