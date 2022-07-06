@@ -9,5 +9,7 @@ void foo(int num)
     } else {
 	printf("ok\n");
         printf("when num is equal to %d...\n", num);
+	    printf("ok\n");
+	    printf("ok\n");
     }
 }
