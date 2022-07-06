@@ -7,6 +7,7 @@ void foo(int num)
     } else if (num == 2){
         printf("when num is equal to 2...\n");
     } else {
+	printf("ok\n");
         printf("when num is equal to %d...\n", num);
     }
 }
