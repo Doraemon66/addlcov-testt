@@ -11,12 +11,15 @@ main.o: main.c
 foo.o: foo.c
 	$(CC) $(CFLAG) -c -Wall -Werror foo.c
 
-build: main.o foo.o ## Make build
+fib.o: fib.c
+	$(CC) $(CFLAG) -c -Wall -Werror fib.c
+
+build: main.o foo.o fib.o## Make build
 	$(CC) $(CFLAG) -c -Wall -Werror main.c
-	$(CC) $(CFLAG) -o main main.o foo.o
+	$(CC) $(CFLAG) -o main main.o foo.o fib.o
 
 gcov: ## Run code coverage
-	gcov main.c foo.c
+	gcov main.c foo.c fib.c
 
 coverage.info: gcov
 	lcov --capture --directory . --output-file coverage.info
