@@ -14,6 +14,17 @@ void foo(int num)
     }
 }
 
+void foo3(int num)
+{
+    if (num == 3) {
+        printf("when num is equal to 5...\n");
+    } else if (num == 4){
+        printf("when num is equal to 6...\n");
+    } else {
+        printf("when num is equal to %d...\n", num);
+    }
+}
+
 void foo2(int num)
 {
     if (num == 3) {
@@ -25,13 +36,4 @@ void foo2(int num)
     }
 }
 
-void foo3(int num)
-{
-    if (num == 3) {
-        printf("when num is equal to 3...\n");
-    } else if (num == 4){
-        printf("when num is equal to 4...\n");
-    } else {
-        printf("when num is equal to %d...\n", num);
-    }
-}
+
