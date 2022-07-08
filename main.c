@@ -6,7 +6,7 @@ int main(void)
 {
     printf("Start calling foo() ...\n");
     
-    
+    foo5(5);
 
     return 0;
 }
