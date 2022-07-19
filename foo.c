@@ -11,7 +11,16 @@ void foo4(int num)
     }
 }
 
-
+void foo(int num)
+{
+    if (num >3) {
+        printf("demo_ok\n");
+    } else if (num <1){
+        printf("demo_ok\n");
+    } else {
+        printf("demo_error\n");
+    }
+}
 
 void foo2(int num)
 {
