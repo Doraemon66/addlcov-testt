@@ -13,15 +13,15 @@ int Fibon2(int n)
     
 }
 
-int Fibon1(int n)
+int Fibon3(int n)
 {
-    if (n == 1 || n == 2){
-        return 1;
-    }
+    n=n+1;
+    if(n==4)
+    printf("isOk\n");
     else
     {
-        return 0;
+        printf("isError\n");
     }
-    return -1;
     
+    return n;
 }
