@@ -28,3 +28,16 @@ int Fibon3(int n)
     return n;
 >>>>>>> origin/yuanmeng
 }
+
+int Fibon4(int n)
+{
+    n=n+1;
+    if(n==4)
+    printf("isOk\n");
+    else
+    {
+        printf("isError\n");
+    }
+    
+    return n;
+}
